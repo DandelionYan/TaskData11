@@ -1,0 +1,163 @@
+* {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        body {
+            font-size: 100%;
+        }
+        .container {
+            background: #29BEDF;
+            width: 100%;
+            height: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            overflow: auto;
+        }
+        /*������������ͶƱ*/
+        header {
+            background-color: #29BEDF;
+            width: 100%;
+            height: 10vh;
+            position: relative;
+        }
+        /*����ѩ��ͼ���ɵ�ͼƬ��ȡһ����*/
+        header .left {
+            position: absolute;
+            width: 40px;
+            height: 45px;
+            background: url(../images/sprite.png) no-repeat 0 0;
+            left: 2%;
+        }
+        header p {
+            font-size: 1.5em;
+            color: #fff;
+            text-align: center;
+            padding-top: 1%;
+        }
+        header .right {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background: url(../images/sprite.png) no-repeat -40px 0;
+            left: 89%;
+            top: .8vh;
+        }
+        /*�м䷢�Խ���*/
+        .top_1 {
+            position: relative;
+            width: 100%;
+            background-color: #B9E9F5;
+            height: 10vh;
+        }
+        .top_1 p {
+            float: left;
+            font-size: 1.2em;
+            color: #333;
+            padding: 3vh 10%;
+        }
+        .top_1 .player {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: url(../images/sprite.png) no-repeat -109px 0;
+            cursor: pointer;
+            top: .8vh;
+            left: 88%;
+        }
+        .top_1 em{
+            display:block;
+            border-width:10px;
+            position:absolute;
+            bottom:-20px;
+            left:50px;
+            border-style:solid dashed dashed;
+            border-color:#B9E9F5 transparent transparent;
+        }
+        .title {
+            font-size: 1.2em;
+            color: #fff;
+            padding: 2vh 12%;
+        }
+        /*�м䷽�񡪡�ˮ��*/
+        .center {
+            background: #29BEDF;
+            width: 100%;
+            position: relative;
+        }
+        .center_01 {
+            float: left;
+            width: 15%;
+            margin: 4vh 8%;
+            /*padding-bottom: 4.8vh;���ñ߿��ɫ������ʽ*/
+            border: 4px solid #fff;
+            text-align: center;
+        }
+        .center_01 p:nth-child(1) {
+            background-color: #F6C87B;
+            padding: 3vh 8%;
+            font-size: 1.1em;
+        }
+        .center_01 p:nth-child(2) {
+            background-color: #83B09B;
+            padding: 1vh 8%;
+            color: #fff;
+        }
+        /*�ĸ�ͼ����ʽ����*/
+        .logo {
+            position: absolute;
+            width: 110px;
+            height: 25px;
+            top: .2vh;
+            left: 6%;
+        }
+        .logo1 {
+            position: absolute;
+            width: 23%;
+            height: 28px;
+            background: url(../images/sprite.png) no-repeat -160px 0;
+            top: 20vh;
+            left: 5%;
+        }
+        .logo2 {
+            position: absolute;
+            width: 23%;
+            height: 28px;
+            background: url(../images/sprite.png) no-repeat -190px 0;
+            top: 20vh;
+            left: 34px;
+        }
+        .logo3 {
+            position: absolute;
+            width: 23%;
+            height: 28px;
+            background: url(../images/sprite.png) no-repeat -220px 0;
+            top: 20vh;
+            left: 62px;
+        }
+        .logo4 {
+            position: absolute;
+            width: 23%;
+            height: 28px;
+            background: url(../images/sprite.png) no-repeat -250px 0;
+            top: 20vh;
+            left: 90px;
+        }
+        /*�ײ�����Ͷ��*/
+        .footer {
+            background-color: #29BEDF;
+            position: fixed;
+            width: 100%;
+            max-width: 600px;
+            bottom: 0;
+        }
+        .footer_btn {
+            background-color: #FBB436;
+            margin: 3% 15vh;
+            text-align: center;
+        }
+        .footer_btn p {
+            padding: 2vh 5%;
+            font-size: 1.8em;
+            color: #fff;
+        }

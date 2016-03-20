@@ -1,0 +1,45 @@
+ /** sprite: horizontal; sprite-image: url('images/sprite.png'); sprite-layout: horizontal; */
+    ul{
+        width: 14rem;
+        padding: 0;
+    } 
+    li{
+        display: inline-block;
+        width: 13rem;
+        height: 3rem;
+    }
+    li:nth-child(1){
+        background-image: url(images/1.png); /** sprite-ref: horizontal;  */
+	width:19px;
+	height:18px;
+    }
+    li:nth-child(2){
+        background-image: url(images/2.png); /** sprite-ref: horizontal;  */
+	width:19px;
+	height:18px;
+    }
+    li:nth-child(3){
+        background-image: url(images/3.png); /** sprite-ref: horizontal;  */
+width:19px;
+	height:18px;
+    }
+    li:nth-child(5){
+        background-image: url(images/5.png); /** sprite-ref: horizontal;  */
+width:19px;
+	height:18px;
+    }
+    li:nth-child(6){
+        background-image: url(images/6.png); /** sprite-ref: horizontal;  */
+width:19px;
+	height:18px;
+    }
+    li:nth-child(7){
+        background-image: url(images/7.png); /** sprite-ref: horizontal;  */
+width:19px;
+	height:18px;
+    }
+    li:nth-child(8){
+        background-image: url(images/8.png); /** sprite-ref: horizontal;  */
+width:19px;
+	height:18px;
+    }

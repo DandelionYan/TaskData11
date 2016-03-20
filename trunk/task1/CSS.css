@@ -1,0 +1,86 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+
+        .sharp {
+            width: 50vh;
+            height: 50vh;
+            margin: 0 auto;
+        }
+        .sharp {
+            width:50vh;
+            height:50vh;
+            margin: 0 auto;
+            position: relative;
+        }
+       .box {
+           width: 32%;
+           height: 32%;
+           background: #E8830D;
+           margin-top: 5%;
+           margin-right: 50%;
+           margin-bottom: 5%;
+       }
+        .box {
+            width: 32%;
+            height: 32%;
+            background: #E8830D;
+            margin-top: 5%;
+            margin-right: 50%;
+            margin-bottom: 5%;
+            position: absolute;
+            border-radius: 15%; /*����Բ�ǰ뾶*/
+        }
+
+        #one1 {
+            left: 0;
+            top: 0;
+        }
+
+        #one2 {
+            left: 33%;
+            top: 0;
+        }
+
+        #one2 {
+            left: 33%;
+            top: 0;
+
+        }
+
+        #one3 {
+            left: 66%;
+            top: 0;
+        }
+        #one3 {
+            left: 66%;
+            top: 0;
+
+        }
+        #one4 {
+            left: 0;
+            top: 33%;
+        }
+        #one5 {
+            left: 33%;
+            top: 33%;
+        }
+        #one6 {
+            left: 66%;
+            top: 33%;
+        }
+        #one7 {
+            left: 0;
+            top: 66%;
+        }
+        #one8 {
+            left: 33%;
+            top: 66%;
+        }
+        #one9 {
+            left: 66%;
+            top: 66%;
+        }
+
